@@ -1,0 +1,148 @@
+.investment-card {
+  position: relative;
+}
+
+.investment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.investment-info {
+  flex: 1;
+}
+
+.investment-symbol {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.investment-name {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-top: 3px;
+}
+
+.investment-price {
+  text-align: right;
+}
+
+.investment-current {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.investment-change {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+  margin-top: 3px;
+}
+
+.investment-change-positive {
+  color: var(--success-color);
+}
+
+.investment-change-negative {
+  color: var(--danger-color);
+}
+
+.investment-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+}
+
+.investment-detail {
+  text-align: center;
+}
+
+.investment-detail-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+}
+
+.investment-detail-value {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.investment-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.investment-action-button {
+  flex: 1;
+  padding: 8px 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.investment-buy-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.investment-buy-button:hover {
+  background-color: #00B000;
+}
+
+.investment-sell-button {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.investment-sell-button:hover {
+  background-color: rgba(0, 200, 5, 0.05);
+}
+
+.pie-chart-container {
+  height: 200px;
+  margin: 20px 0;
+}
+
+.allocation-legend {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.allocation-item {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.allocation-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.allocation-label {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.allocation-value {
+  font-weight: 500;
+  margin-left: 5px;
+}
