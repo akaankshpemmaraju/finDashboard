@@ -83,6 +83,9 @@ financial-dashboard/
 - Bank account linking interface
 - Responsive design for mobile and desktop
 
+- ![image](https://github.com/user-attachments/assets/ca04820f-6234-418b-aa34-006dbed5969c)
+
+
 ### 2. Financial Goals Dashboard
 - Overview of total savings progress
 - Individual goal cards with progress tracking
@@ -90,12 +93,18 @@ financial-dashboard/
 - Add funds to existing goals
 - Visualize savings growth over time
 
+- ![image](https://github.com/user-attachments/assets/5bf86b5b-47a3-409f-8af4-853c19f21613)
+
+
 ### 3. Investment Portfolio
 - Portfolio value and performance tracking
 - Individual investment cards with real-time data
 - Buy and sell functionality
 - Asset allocation visualization
 - Period selection for performance charts
+
+- ![image](https://github.com/user-attachments/assets/e92f6a02-1ffb-41bc-a0d3-d939424ac473)
+
 
 ## Data Visualization
 
@@ -106,6 +115,9 @@ The dashboard includes several types of data visualization:
 3. **Progress Bars** - For tracking progress towards financial goals
 
 All charts are interactive and responsive, with period selection for time-based data.
+
+![image](https://github.com/user-attachments/assets/6177e577-e56f-458a-8326-63e052ad9c6f)
+
 
 ## API Integration
 
