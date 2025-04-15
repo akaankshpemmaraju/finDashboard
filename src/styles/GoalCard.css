@@ -1,0 +1,109 @@
+.goal-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.goal-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.goal-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 200, 5, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.goal-info {
+  flex: 1;
+}
+
+.goal-name {
+  font-weight: 600;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.goal-date {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-top: 3px;
+}
+
+.goal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.goal-action-button {
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.goal-add-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.goal-add-button:hover {
+  background-color: #00B000;
+}
+
+.goal-edit-button {
+  background: none;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+.goal-edit-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.add-goal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  border: 2px dashed var(--border-color);
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.add-goal-card:hover {
+  border-color: var(--primary-color);
+  background-color: rgba(0, 200, 5, 0.05);
+}
+
+.add-goal-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 200, 5, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.add-goal-text {
+  font-weight: 500;
+  color: var(--primary-color);
+}
