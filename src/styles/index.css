@@ -1,0 +1,131 @@
+/* Global styles for Robinhood-like interface */
+:root {
+  --primary-color: #00C805;
+  --secondary-color: #1E2124;
+  --background-color: #FFFFFF;
+  --card-background: #F9F9F9;
+  --text-color: #1E2124;
+  --text-secondary: #8A8A8A;
+  --border-color: #E8E8E8;
+  --success-color: #00C805;
+  --danger-color: #FF5000;
+  --chart-green: #00C805;
+  --chart-red: #FF5000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Card styles */
+.card {
+  background-color: var(--card-background);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #00B000;
+  border-color: #00B000;
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Form styles */
+.form-control {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(0, 200, 5, 0.25);
+}
+
+/* Navigation */
+.navbar {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Chart styles */
+.chart-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0;
+}
+
+/* Progress bar */
+.progress {
+  height: 8px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: var(--primary-color);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.text-success {
+  color: var(--success-color) !important;
+}
+
+.text-danger {
+  color: var(--danger-color) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app {
+    padding: 0 15px;
+  }
+  
+  .card {
+    padding: 15px;
+  }
+}
