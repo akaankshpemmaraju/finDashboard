@@ -1,0 +1,117 @@
+.card {
+  background-color: var(--card-background);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 5px 0 0 0;
+}
+
+.card-body {
+  margin-bottom: 15px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+}
+
+/* Card variations */
+.card-primary {
+  border-left: 4px solid var(--primary-color);
+}
+
+.card-danger {
+  border-left: 4px solid var(--danger-color);
+}
+
+.card-compact {
+  padding: 15px;
+}
+
+.card-action {
+  cursor: pointer;
+}
+
+/* Goal card specific styles */
+.goal-card {
+  position: relative;
+}
+
+.goal-progress {
+  margin: 15px 0;
+}
+
+.goal-amount {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.goal-saved {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.goal-target {
+  color: var(--text-secondary);
+}
+
+/* Investment card specific styles */
+.investment-card .performance {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.performance-up {
+  color: var(--success-color);
+}
+
+.performance-down {
+  color: var(--danger-color);
+}
+
+.performance-icon {
+  margin-right: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+  }
+}
